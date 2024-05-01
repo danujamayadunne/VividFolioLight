@@ -1,6 +1,6 @@
 <b>VividFolio</b> is a minimalist HTML5 template developed for small startups and studios. It provides a clean, minimal, and responsive template to build your website quickly and easily.
 
-<b>Getting Started<b>
+<b>Getting Started</b>
 
 Download the Template: Clone this rep or download the ZIP file containing the HTML, CSS, and JavaScript files.
 Extract the Files: Extract the downloaded ZIP file to your desired location.
