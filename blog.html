@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Change the below title and description according to your brand or website name. -->
+    <title>Startup - Blog</title>
+    <meta name="description" content="Add description here.">
+    <!---------- CSS Files ---------->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!---------- Navbar ---------->
+    <nav data-aos="fade-down" data-aos-duration="1500" class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+
+            <!-- Text Logo -->
+            <a class="navbar-brand text-logo" href="./index.html">Vivid AI</a>
+
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand image-logo" href="#">
+                    <img class="image-logo" src="./images/logo" alt="logo">
+                </a> -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item navbar-item">
+                        <a class="nav-link navbar-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item navbar-item">
+                        <a class="nav-link navbar-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item navbar-item">
+                        <a class="nav-link navbar-link" href="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item navbar-item">
+                        <a class="nav-link navbar-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item navbar-item">
+                        <a class="nav-link navbar-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+                <a href="./contact.html"><button class="btn btn-dark btn-sm rounded-pill top-contact-button"> CONTACT
+                    </button></a>
+            </div>
+        </div>
+    </nav>
+
+    <!---------- Blog ---------->
+    <section class="blog">
+
+        <div class="blog-content">
+            <p class="blog-title">Blog</p>
+
+            <!-- Featured Posts -->
+            <div class="blog-header">
+                <div class="row">
+                    <div class="col-8">
+                        <!-- 1st Featured Post -->
+                        <a class="a" href="./blog/the-next-generation-of-ai.html">
+                            <img src="https://images.unsplash.com/photo-1671519821514-07056239cd99?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="blog-header-image-1" alt="blog_image" loading="lazy">
+                            <p class="blog-header-post-title-long">The next generation of AI - Interview with Vivid's
+                                CTO
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-sm grid-2">
+                        <!-- 2nd Featured Post -->
+                        <div class="col-sm">
+                            <a class="a" href="#">
+                                <img src="https://images.unsplash.com/photo-1691249602859-5c1d488de1ba?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    class="blog-header-image-2" alt="blog_image" loading="lazy">
+                                <p class="blog-header-post-title-short">How AI leverage the company growth</p>
+                            </a>
+                        </div>
+                        <!-- 3rd Featured Post -->
+                        <div class="col-sm grid-3">
+                            <a class="a" href="#">
+                                <img src="https://images.unsplash.com/photo-1671519821564-ced7e41ee7ae?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    class="blog-header-image-2" alt="blog_image" loading="lazy">
+                                <p class="blog-header-post-title-short">How Vivid Newton AI works</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-posts">
+
+                <!-- Latest Posts -->
+                <p class="latest">Latest Posts</p>
+
+                <div class="blog-posts-grid">
+                    <!-- Post -->
+                    <a class="a" href="./blog/the-next-generation-of-ai.html">
+                        <div class="blog-post">
+                            <img src="https://images.unsplash.com/photo-1637825891028-564f672aa42c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="blog-post-image" alt="blog_image" loading="lazy">
+                            <p class="blog-post-title">The next generation of AI - Interview with Vivid's CTO</p>
+                        </div>
+                    </a>
+                    <!-- Post -->
+                    <div class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1667202374078-1683eda6b0b6?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="blog-post-image" alt="blog_image" loading="lazy">
+                        <p class="blog-post-title">How AI leverage company growth</p>
+                    </div>
+                    <!-- Post -->
+                    <div class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1617451588899-7ac8679908c7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="blog-post-image" alt="blog_image" loading="lazy">
+                        <p class="blog-post-title">How Vivid AI works</p>
+                    </div>
+                    <!-- Post -->
+                    <div class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1692119867376-3938c000196b?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="blog-post-image" alt="blog_image" loading="lazy">
+                        <p class="blog-post-title">How Vivid AI manage data easily</p>
+                    </div>
+                    <!-- Post -->
+                    <a class="a" href="./blog/build-your-your-first-project.html">
+                        <div class="blog-post">
+                            <img src="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="blog-post-image" alt="blog_image" loading="lazy">
+                            <p class="blog-post-title">Build your first Vivid AI project</p>
+                        </div>
+                    </a>
+                    <!-- Post -->
+                    <div class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1618556658017-fd9c732d1360?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="blog-post-image" alt="blog_image" loading="lazy">
+                        <p class="blog-post-title">Developing guide for beginners</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---------- Footer ---------->
+
+    <!-- Footer Content -->
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <p class="footer-content-left-description"> Vivid Newton™ is part of Vivid Themes Inc.</p>
+                <p class="footer-content-left-copyright"> © 2024 Vivid Themes. All Right Reserved.</p>
+            </div>
+            <div class="footer-content-right">
+                <div class="footer-content-right-column">
+                    <p class="footer-content-right-column-title">Useful Links</p>
+                    <p class="footer-content-right-column-link">Features</p>
+                    <p class="footer-content-right-column-link">Pricing</p>
+                    <p class="footer-content-right-column-link">Privacy Policy</p>
+                    <p class="footer-content-right-column-link">Terms & Conditions</p>
+                </div>
+                <div class="footer_content_right_column">
+                    <p class="footer-content-right-column-title">Help</p>
+                    <p class="footer-content-right-column-link">Getting Started</p>
+                    <p class="footer-content-right-column-link">User Guide</p>
+                    <p class="footer-content-right-column-link">FAQ</p>
+                    <p class="footer-content-right-column-link">Feedback</p>
+                </div>
+                <div class="footer_content_right_column">
+                    <p class="footer-content-right-column-title">About</p>
+                    <p class="footer-content-right-column-link">News</p>
+                    <p class="footer-content-right-column-link">Careers</p>
+                    <p class="footer-content-right-column-link">Investors</p>
+                    <p class="footer-content-right-column-link">Sustainability</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------- JavaScript File ---------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
