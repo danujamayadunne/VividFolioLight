@@ -2,7 +2,7 @@
 
 <b>Getting Started</b>
 
-Download the Template: Clone this rep or download the ZIP file containing the HTML, CSS, and JavaScript files. <br/>
+Download the Template: Clone this repo or download the ZIP file containing the HTML, CSS, and JavaScript files. <br/>
 Extract the Files: Extract the downloaded ZIP file to your desired location.  <br/>
 Open index.html: Open index.html in your favorite code editor.  <br/>
 Edit the Content: Replace the placeholder content with your own text, images, and branding. <br/>
