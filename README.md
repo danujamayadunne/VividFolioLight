@@ -9,4 +9,5 @@ Edit the Content: Replace the placeholder content with your own text, images, an
 Customize the Styles (Optional): Modify the styles in style.css to match your brand identity.
 
 <b>License</b>
+
 This template is provided under the MIT License. You are free to use and modify it for personal and commercial projects.
